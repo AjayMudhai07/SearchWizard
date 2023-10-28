@@ -92,6 +92,13 @@ class DataAnalyser:
         else:
             print("Insights is not in the expected format.")
 
+
+    def store_last_query_data(self,query_data):
+        """Sends the last user query data to the frontend."""
+        if self.socketio:
+            self.socketio.emit('store_last_query_data', {'lastQueryData': query_data})
+
+
     
     def connect_to_database(self):
         """Establishes a connection to the database."""
@@ -227,7 +234,23 @@ class DataAnalyser:
     
 
 
-
+    def get_dashboard_names_for_datasource(self, data_source_name):
+        try:
+            with open("dashboards.json", "r") as file:
+                data = json.load(file)
+                if data_source_name in data:
+                    return list(data[data_source_name]['dashboards'].keys())
+                else:
+                    return []
+        except FileNotFoundError:
+            print("dashboards.json not found!")
+            return []
+        except json.JSONDecodeError:
+            print("Error decoding dashboards.json!")
+            return []
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return []
 
     def process_query(self, user_query, schema_description):
         function_descriptions = [
@@ -285,6 +308,16 @@ class DataAnalyser:
                 if base64_image:
                     print("Generated graph successfully!")
                     self.show_graph(base64_image)
+                    dashboard_names = self.get_dashboard_names_for_datasource('Travel - 1')
+                    query_data = {
+                    'Data Source Name': 'Travel - 1',  # You can adjust this if you have different data sources
+                    'class': 'mysql',  # Adjust this as needed
+                    'dashboards': dashboard_names,  
+                    'graph_description': data_description,  # A simple description
+                    'sql_query': sql_query,
+                    'plot_params': plot_params
+                    }
+                    self.store_last_query_data(query_data)
                     response=self.DV.get_answer_and_insight_function_params(data,data_description,user_query)
                     self.show_answer(response.get('answer'))
                     self.show_insight(response)
@@ -293,7 +326,7 @@ class DataAnalyser:
             
             
         else:
-         # Check the reasonableness of the user's question
+        # Check the reasonableness of the user's question
             response = check_question(
             user_query,
             schema_description,
@@ -322,11 +355,22 @@ class DataAnalyser:
                 if base64_image:
                     print("Generated graph successfully!")
                     self.show_graph(base64_image)
+                    dashboard_names = self.get_dashboard_names_for_datasource('Travel - 1')
+                    plot_params.pop('data')
+                    query_data = {
+                    'Data Source Name': 'Travel - 1',  # You can adjust this if you have different data sources
+                    'class': 'mysql',  # Adjust this as needed
+                    'dashboards': dashboard_names,  
+                    'graph_description': data_description,  # A simple description
+                    'sql_query': sql_query,
+                    'plot_params': plot_params
+                    }
+                    self.store_last_query_data(query_data)
+                   
                 else:
                     print("Failed to generate graph.")
                 
                 insights=self.DV.get_insight_function_params(data, data_description, user_query)
-                plot_params.pop('data')
                 self.vdb.add_question(user_query,sql_query,str(plot_params),data_description,collection_name="travel_sample2")
                 self.show_insight(insights)
 
@@ -336,23 +380,24 @@ class DataAnalyser:
             
             
         suggestions=self.generate_suggestions(user_query,schema_description,model,function_descriptions)
+        
             
             
         
 
-        
+            
 
-# Example usage:
-# chatbot = GenericDatabaseChatbot(db_type="mysql")
-# schema_description = (
-#     "Each user can book one or more flights and hotels. Flights have different classes, and hotels offer various room types..."
-#     # ... (rest of the schema description)
-# )
+    # Example usage:
+    # chatbot = GenericDatabaseChatbot(db_type="mysql")
+    # schema_description = (
+    #     "Each user can book one or more flights and hotels. Flights have different classes, and hotels offer various room types..."
+    #     # ... (rest of the schema description)
+    # )
 
-# while True:
-#     query = input("Query : ")
-#     da = DataAnalyser(db_type="mysql")
-#     schema_description = (
-#     "Each user can book one or more flights and hotels. Flights have different classes, and hotels offer various room types...") 
-#     response = da.main(query,schema_description)  
-#     print(response)
+    # while True:
+    #     query = input("Query : ")
+    #     da = DataAnalyser(db_type="mysql")
+    #     schema_description = (
+    #     "Each user can book one or more flights and hotels. Flights have different classes, and hotels offer various room types...") 
+    #     response = da.main(query,schema_description)  
+    #     print(response)

@@ -1,10 +1,12 @@
+
 $(document).ready(function() {
     let socket;
     let lastQuery = null;
+    let lastQueryData =null;
 
     function initializeSocket() {
         if (!socket) {
-            socket = io.connect('http://localhost:5000');
+            socket = io.connect('http://0.0.0.0:5000');
 
             socket.on('show_answer', function(data) {
                 $('#actual-answer').text(data.answer);
@@ -47,6 +49,13 @@ $(document).ready(function() {
                 } else {
                     // No insights available, hide the #insight-section
                     $('#insight-section').hide();
+                }
+            });
+
+            socket.on('store_last_query_data', function(data) {
+                console.log("Received last query data:", data);
+                if (data.lastQueryData) {
+                    lastQueryData = data.lastQueryData;
                 }
             });
 
@@ -148,4 +157,50 @@ $(document).ready(function() {
     }
 
     initializeSocket();
+
+    let scaleValue = 1;  // Initial scale value for graph images
+  
+    
+    $('.graph-section img').on('wheel', function(event) {
+        // Prevent the default browser behavior
+        event.preventDefault();
+
+        // Increase or decrease the scale value based on the wheel direction
+        if (event.originalEvent.deltaY < 0) {
+            // Scrolling up (zoom in)
+            scaleValue += 0.1;
+        } else {
+            // Scrolling down (zoom out)
+            scaleValue -= 0.1;
+        }
+
+        // Apply the scaling transformation
+        $(this).css('transform', `scale(${scaleValue})`);
+    });
+
+
+
+
+    $(document).ready(function() {
+        $.ajax({
+            url: '/get_left_nav_items',
+            method: 'GET',
+            success: function(data) {
+                const leftNav = $(".left-nav");
+                data.forEach(item => {
+                    const itemElement = $(`<div class="nav-item"><a href="#"><span class="icon ${item.class}"></span> ${item.name} </a></div>`);
+                    const dropdownElement = $("<div class='nav-item-sub'></div>");
+                    item.dropdown.forEach(option => {
+                        // Update the link to point to the new Flask route
+                        dropdownElement.append(`<a href="/page/${option}">${option}</a>`);
+                    });
+                    itemElement.append(dropdownElement);
+                    leftNav.append(itemElement);
+                });
+                leftNav.find(".dropdown").each(function() {
+                    $(this).append('<button class="new-btn"><span class="new-btn-icon"></span></button>');
+                });
+            }
+        });
+    });
 });

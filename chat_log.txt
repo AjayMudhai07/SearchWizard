@@ -416,3 +416,9 @@ Message 2: Message(role='assistant', content="Thought: To answer this question, 
 Message 3: Message(role='function', content='Observation: [(datetime.date(2023, 9, 21), 100)]', name='query_database', function_call=None)
 Message 4: Message(role='assistant', content='Thought: The query has returned that the highest number of flight bookings occurred on September 21, 2023, with 100 bookings on that day.\n\nFinal Answer: The day with the highest number of flight bookings is September 21, 2023.', name=None, function_call=None)
 
+User Query: What is the frequency of hotel bookings by room type?
+Message 1: Message(role='user', content='Question: What is the frequency of hotel bookings by room type?', name=None, function_call=None)
+Message 2: Message(role='assistant', content='Thought: To answer this question, I should use SQL to count the amount of hotel bookings for each room type using the hotel_bookings and hotel_room_types tables.\nAction: I will execute a query on the `hotel_bookings` and `hotel_room_types` tables and use the "GROUP BY" clause to count the bookings for each room type.\n', name=None, function_call={'name': 'query_database', 'arguments': '{\n  "query": "SELECT hotel_room_types.room_type, COUNT(*) as frequency FROM hotel_bookings INNER JOIN hotel_room_types ON hotel_bookings.room_type_id = hotel_room_types.room_type_id GROUP BY hotel_room_types.room_type"\n}'})
+Message 3: Message(role='function', content="Observation: [('Single', 24), ('Double', 30), ('Suite', 32), ('Deluxe', 14)]", name='query_database', function_call=None)
+Message 4: Message(role='assistant', content="Thought: I received the frequency of hotel room bookings by room type. I can now provide the final answer based on this observation.\nFinal Answer: The frequency of hotel bookings by room type is as follows: 'Single' rooms have been booked 24 times, 'Double' rooms 30 times, 'Suite' rooms 32 times, and 'Deluxe' rooms 14 times.", name=None, function_call=None)
+
