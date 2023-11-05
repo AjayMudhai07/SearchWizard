@@ -1,0 +1,154 @@
+.whiteCard {
+    /* flex: 1; */
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    /* flex: 1; */
+    width: 80%;
+    height: 70%;
+    margin-top: 15%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    align-items: center;
+    position: relative; /* for absolute positioning of search bar */
+    /* padding: 30px; spacing/ */
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mainHeading {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    /* margin: 80px;
+    margin-bottom: 40px; */
+    font-size: 36px;  /* You can adjust the font size */
+    font-weight: bold;  /* Bold font to make the effect more pronounced */
+    background: linear-gradient(to right, darkblue, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cardsContainer {
+    display: flex;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* align-items: center; */
+    justify-content: center;
+    width: auto;
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 10%; */
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(218, 226, 255, 0.2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+}
+
+/* .card :nth-child(3)
+{
+    margin-right: 0px;
+} */
+
+.circle {
+    width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    background-color: rgba(68, 108, 255, 0.2);
+    border-radius: 50%; /* for circle shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cardIcon {
+    width: 50%; /* Adjust as per your needs */
+    height: auto;
+}
+
+.cardHeading {
+    flex-wrap: wrap;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.cardText {
+    flex-wrap: wrap;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* width: 217px; */
+}
+
+.searchContainer {
+    position: absolute;
+    bottom: 1px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    display: flex;
+    align-items: left;
+    width: 99.9%;
+    height: 7%;
+    border-radius: 1px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+
+.searchInput {
+    flex: 1;
+    z-index: 100;
+    border: 0px;
+}
+
+.searchIconContainer {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon {
+    width: 20px; /* Adjust as per your needs */
+    height: 20px; /* Adjust as per your needs */
+    /* margin-left: 10px; */
+    display: flex;
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    /* .whiteCard {
+        width: 80%; /* or any suitable width */
+        /* margin-left: 10%;
+        margin-right: 10%;
+    } */ 
+  
+    /* .header {
+        width: 70vw; /* adjust according to your needs */
+    /* } */ 
+  }

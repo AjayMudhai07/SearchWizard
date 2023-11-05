@@ -1,0 +1,97 @@
+room_type_id,hotel_id,type_name,amenities,price,available_rooms
+1,1,Single,"Free WiFi,TV,Air Conditioning",146.00,17
+2,1,Double,"Free WiFi,TV,Air Conditioning,Minibar",225.00,8
+3,1,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",220.00,18
+4,1,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",225.00,14
+5,2,Single,"Free WiFi,TV,Air Conditioning",101.00,8
+6,2,Double,"Free WiFi,TV,Air Conditioning,Minibar",163.00,13
+7,2,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",291.00,17
+8,2,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",273.00,10
+9,3,Single,"Free WiFi,TV,Air Conditioning",200.00,9
+10,3,Double,"Free WiFi,TV,Air Conditioning,Minibar",220.00,10
+11,3,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",285.00,19
+12,3,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",295.00,11
+13,4,Single,"Free WiFi,TV,Air Conditioning",101.00,12
+14,4,Double,"Free WiFi,TV,Air Conditioning,Minibar",219.00,7
+15,4,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",168.00,16
+16,4,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",259.00,17
+17,5,Single,"Free WiFi,TV,Air Conditioning",194.00,11
+18,5,Double,"Free WiFi,TV,Air Conditioning,Minibar",158.00,14
+19,5,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",252.00,8
+20,5,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",283.00,6
+21,6,Single,"Free WiFi,TV,Air Conditioning",186.00,19
+22,6,Double,"Free WiFi,TV,Air Conditioning,Minibar",223.00,8
+23,6,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",156.00,18
+24,6,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",293.00,18
+25,7,Single,"Free WiFi,TV,Air Conditioning",148.00,9
+26,7,Double,"Free WiFi,TV,Air Conditioning,Minibar",159.00,12
+27,7,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",196.00,6
+28,7,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",280.00,13
+29,8,Single,"Free WiFi,TV,Air Conditioning",191.00,9
+30,8,Double,"Free WiFi,TV,Air Conditioning,Minibar",157.00,20
+31,8,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",248.00,11
+32,8,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",265.00,16
+33,9,Single,"Free WiFi,TV,Air Conditioning",191.00,16
+34,9,Double,"Free WiFi,TV,Air Conditioning,Minibar",159.00,20
+35,9,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",233.00,12
+36,9,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",280.00,10
+37,10,Single,"Free WiFi,TV,Air Conditioning",78.00,7
+38,10,Double,"Free WiFi,TV,Air Conditioning,Minibar",232.00,20
+39,10,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",157.00,15
+40,10,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",339.00,18
+41,11,Single,"Free WiFi,TV,Air Conditioning",111.00,9
+42,11,Double,"Free WiFi,TV,Air Conditioning,Minibar",193.00,8
+43,11,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",216.00,15
+44,11,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",329.00,17
+45,12,Single,"Free WiFi,TV,Air Conditioning",72.00,18
+46,12,Double,"Free WiFi,TV,Air Conditioning,Minibar",198.00,9
+47,12,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",260.00,16
+48,12,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",313.00,6
+49,13,Single,"Free WiFi,TV,Air Conditioning",168.00,5
+50,13,Double,"Free WiFi,TV,Air Conditioning,Minibar",221.00,10
+51,13,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",283.00,7
+52,13,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",268.00,14
+53,14,Single,"Free WiFi,TV,Air Conditioning",122.00,9
+54,14,Double,"Free WiFi,TV,Air Conditioning,Minibar",171.00,18
+55,14,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",261.00,19
+56,14,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",331.00,7
+57,15,Single,"Free WiFi,TV,Air Conditioning",92.00,13
+58,15,Double,"Free WiFi,TV,Air Conditioning,Minibar",105.00,14
+59,15,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",197.00,14
+60,15,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",258.00,13
+61,16,Single,"Free WiFi,TV,Air Conditioning",104.00,7
+62,16,Double,"Free WiFi,TV,Air Conditioning,Minibar",210.00,11
+63,16,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",200.00,19
+64,16,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",219.00,17
+65,17,Single,"Free WiFi,TV,Air Conditioning",157.00,12
+66,17,Double,"Free WiFi,TV,Air Conditioning,Minibar",203.00,8
+67,17,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",161.00,14
+68,17,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",257.00,10
+69,18,Single,"Free WiFi,TV,Air Conditioning",95.00,19
+70,18,Double,"Free WiFi,TV,Air Conditioning,Minibar",196.00,11
+71,18,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",231.00,6
+72,18,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",313.00,6
+73,19,Single,"Free WiFi,TV,Air Conditioning",103.00,18
+74,19,Double,"Free WiFi,TV,Air Conditioning,Minibar",126.00,12
+75,19,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",238.00,14
+76,19,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",242.00,8
+77,20,Single,"Free WiFi,TV,Air Conditioning",192.00,13
+78,20,Double,"Free WiFi,TV,Air Conditioning,Minibar",160.00,20
+79,20,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",293.00,20
+80,20,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",299.00,10
+81,21,Single,"Free WiFi,TV,Air Conditioning",188.00,15
+82,21,Double,"Free WiFi,TV,Air Conditioning,Minibar",224.00,20
+83,21,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",222.00,9
+84,21,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",289.00,19
+85,22,Single,"Free WiFi,TV,Air Conditioning",149.00,9
+86,22,Double,"Free WiFi,TV,Air Conditioning,Minibar",153.00,16
+87,22,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",256.00,11
+88,22,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",221.00,18
+89,23,Single,"Free WiFi,TV,Air Conditioning",187.00,18
+90,23,Double,"Free WiFi,TV,Air Conditioning,Minibar",188.00,19
+91,23,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",283.00,8
+92,23,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",337.00,5
+93,24,Single,"Free WiFi,TV,Air Conditioning",183.00,20
+94,24,Double,"Free WiFi,TV,Air Conditioning,Minibar",244.00,5
+95,24,Suite,"Free WiFi,TV,Air Conditioning,Minibar,Living Room",269.00,15
+96,24,Deluxe,"Free WiFi,TV,Air Conditioning,Minibar,Living Room,Sea View",303.00,9

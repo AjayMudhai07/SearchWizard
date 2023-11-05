@@ -1,0 +1,42 @@
+package_id,package_name,description,start_date,end_date,price
+1,Agra Adventure,Explore the historical city of Agra,2024-01-01 08:00:00,2024-01-07 20:00:00,599.99
+2,Goa Getaway,Relax on the beaches of Goa,2024-02-01 08:00:00,2024-02-07 20:00:00,499.99
+3,New York Nights,Experience the nightlife of New York,2024-03-01 08:00:00,2024-03-07 20:00:00,799.99
+4,London Leisure,Discover the historic sites of London,2024-04-01 08:00:00,2024-04-07 20:00:00,699.99
+5,Udaipur Utopia,Enjoy the lakes of Udaipur,2024-05-01 08:00:00,2024-05-07 20:00:00,449.99
+6,Kochi Kickback,Relax in the coastal city of Kochi,2024-06-01 08:00:00,2024-06-07 20:00:00,399.99
+7,Parisian Pleasure,Enjoy the romantic atmosphere of Paris,2024-07-01 08:00:00,2024-07-07 20:00:00,749.99
+8,Dubai Dreams,Experience luxury in Dubai,2024-08-01 08:00:00,2024-08-07 20:00:00,999.99
+9,Shimla Serenity,Find peace in the hills of Shimla,2024-09-01 08:00:00,2024-09-07 20:00:00,349.99
+10,Sydney Sojourn,Discover the landmarks of Sydney,2024-10-01 08:00:00,2024-10-07 20:00:00,849.99
+11,Singapore Sights,Explore the modern city of Singapore,2024-11-01 08:00:00,2024-11-07 20:00:00,649.99
+12,Jaipur Journey,Discover the royal heritage of Jaipur,2024-12-01 08:00:00,2024-12-07 20:00:00,399.99
+13,Agra Exotica,Immerse in the culture of Agra,2024-01-10 08:00:00,2024-01-17 20:00:00,659.99
+14,Goa Paradise,Enjoy Goa's pristine beaches,2024-02-10 08:00:00,2024-02-17 20:00:00,549.99
+15,NYC Explorer,Explore the Big Apple,2024-03-10 08:00:00,2024-03-17 20:00:00,859.99
+16,London Royal Tour,Experience the royal culture of London,2024-04-10 08:00:00,2024-04-17 20:00:00,759.99
+17,Udaipur Oasis,Relax by the lakes of Udaipur,2024-05-10 08:00:00,2024-05-17 20:00:00,499.99
+18,Kochi Coastal Cruise,Cruise the backwaters of Kochi,2024-06-10 08:00:00,2024-06-17 20:00:00,449.99
+19,Paris Romance,Experience love in the city of lights,2024-07-10 08:00:00,2024-07-17 20:00:00,799.99
+20,Dubai Deluxe,Live in luxury in Dubai,2024-08-10 08:00:00,2024-08-17 20:00:00,1059.99
+21,Shimla Retreat,Escape to the hills of Shimla,2024-09-10 08:00:00,2024-09-17 20:00:00,389.99
+22,Sydney Adventure,Embark on an adventure in Sydney,2024-10-10 08:00:00,2024-10-17 20:00:00,889.99
+23,Singapore Extravaganza,Experience the vibrant culture of Singapore,2024-11-10 08:00:00,2024-11-17 20:00:00,699.99
+24,Jaipur Jewel,Discover the jewels of Jaipur,2024-12-10 08:00:00,2024-12-17 20:00:00,439.99
+25,Agra Mystique,Discover the Mughal legacy in Agra,2024-01-20 08:00:00,2024-01-27 20:00:00,679.99
+26,Goa Carnival,Experience the vibrant Goa Carnival,2024-02-20 08:00:00,2024-02-27 20:00:00,569.99
+27,New York Broadway,Enjoy a Broadway show in New York,2024-03-20 08:00:00,2024-03-27 20:00:00,879.99
+28,London History,Walk through the history of London,2024-04-20 08:00:00,2024-04-27 20:00:00,779.99
+29,Udaipur Elegance,Experience the elegance of Udaipur,2024-05-20 08:00:00,2024-05-27 20:00:00,519.99
+30,Kochi Culture,Immerse in the culture of Kochi,2024-06-20 08:00:00,2024-06-27 20:00:00,469.99
+31,Paris Artistry,Discover the artistic treasures of Paris,2024-07-20 08:00:00,2024-07-27 20:00:00,819.99
+32,Dubai Glitz,Experience the glitz and glamour of Dubai,2024-08-20 08:00:00,2024-08-27 20:00:00,1079.99
+33,Shimla Solitude,Find solitude in the serene hills of Shimla,2024-09-20 08:00:00,2024-09-27 20:00:00,409.99
+34,Sydney Surf,Learn to surf in Sydney's famous beaches,2024-10-20 08:00:00,2024-10-27 20:00:00,909.99
+35,Singapore Skyline,Admire the modern skyline of Singapore,2024-11-20 08:00:00,2024-11-27 20:00:00,719.99
+36,Jaipur Royalty,Live like royalty in Jaipur,2024-12-20 08:00:00,2024-12-27 20:00:00,459.99
+37,Agra Marvel,Marvel at the Taj Mahal,2025-01-01 08:00:00,2025-01-07 20:00:00,699.99
+38,Goa Fest,Join in the festivities of Goa,2025-02-01 08:00:00,2025-02-07 20:00:00,589.99
+39,New York City Lights,See the city that never sleeps,2025-03-01 08:00:00,2025-03-07 20:00:00,899.99
+40,London Legacy,Explore the legacy of London,2025-04-01 08:00:00,2025-04-07 20:00:00,799.99
+

@@ -1,0 +1,32 @@
+{
+    "Travel - 1":{
+        "class":"mysql",
+        "dashboards":{
+            "Revenue monitoring board":{
+                "graph_1_description":{
+                    "sql_query":"sql",
+                    "plot_params":"plot_params"
+                },
+                "graph_2_description":{
+                    "sql_query":"sql",
+                    "plot_params":"plot_params"
+                }
+
+            },
+            "Expense monitoring board":{
+                "graph_1_description":{
+                    "sql_query":"sql",
+                    "plot_params":"plot_params"
+                },
+                "graph_2_description":{
+                    "sql_query":"sql",
+                    "plot_params":"plot_params"
+                }
+
+            }
+
+        }
+        
+    }
+    
+}

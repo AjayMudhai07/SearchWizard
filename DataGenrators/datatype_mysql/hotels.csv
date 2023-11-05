@@ -1,0 +1,25 @@
+hotel_id,hotel_name,address,city,country,rating
+1,Taj Palace,Agra Cantt, Agra,India,4.5
+2,Agra Retreat,Shamsabad Road, Agra,India,4.1
+3,Goa Resort,Baga Road, Goa,India,4.6
+4,Goa Beachfront,Near Candolim Beach, Goa,India,4.3
+5,NY Central Hotel,Times Square, New York,USA,4.8
+6,Liberty Lodge,Liberty Street, New York,USA,4.2
+7,London Royal Hotel,Buckingham Palace Road, London,UK,4.7
+8,London Inn,Trafalgar Square, London,UK,4.0
+9,Udaipur Lake Hotel,Lake Pichola, Udaipur,India,4.9
+10,Udaipur Heritage,Near City Palace, Udaipur,India,4.4
+11,Kochi Marina,Marina Drive, Kochi,India,4.6
+12,Kochi Heritage,Fort Kochi, Kochi,India,4.2
+13,Parisian Resort,Champs Elysees, Paris,France,4.8
+14,Paris Retreat,Near Eiffel Tower, Paris,France,4.5
+15,Dubai Skyline Hotel,Sheikh Zayed Road, Dubai,UAE,4.7
+16,Dubai Marina Hotel,Marina Walk, Dubai,UAE,4.9
+17,Shimla Hilltop,The Ridge, Shimla,India,4.3
+18,Shimla Retreat,Mall Road, Shimla,India,4.0
+19,Sydney Harbour Hotel,Circular Quay, Sydney,Australia,4.8
+20,Sydney Beach Hotel,Bondi Beach, Sydney,Australia,4.5
+21,Singapore City Hotel,Orchard Road, Singapore,Singapore,4.7
+22,Singapore Marina,Marina Bay, Singapore,Singapore,4.9
+23,Jaipur Palace,Near Hawa Mahal, Jaipur,India,4.6
+24,Jaipur Retreat,City Palace Road, Jaipur,India,4.1

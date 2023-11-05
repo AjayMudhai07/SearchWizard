@@ -1,0 +1,101 @@
+flight_id,airline_name,source,destination,departure_time,arrival_time
+1,Vistara,Chennai,Agra,2023-10-25 05:05:00,2023-10-25 06:05:00
+2,Vistara,Delhi,Goa,2023-10-25 14:01:00,2023-10-25 19:01:00
+3,Air India,Bengaluru,New York,2023-10-25 02:37:00,2023-10-25 11:37:00
+4,SpiceJet,Hyderabad,London,2023-10-25 07:39:00,2023-10-25 15:39:00
+5,GoAir,Kolkata,New York,2023-10-25 03:50:00,2023-10-25 10:50:00
+6,Air India,Chennai,Udaipur,2023-10-25 08:18:00,2023-10-25 11:18:00
+7,SpiceJet,Delhi,Kochi,2023-10-25 11:07:00,2023-10-25 15:07:00
+8,SpiceJet,Bengaluru,Paris,2023-10-25 10:36:00,2023-10-25 16:36:00
+9,Air India,Chennai,New York,2023-10-25 17:29:00,2023-10-26 05:29:00
+10,GoAir,Chennai,Dubai,2023-10-25 21:34:00,2023-10-26 10:34:00
+11,SpiceJet,Bengaluru,New York,2023-10-25 23:44:00,2023-10-26 11:44:00
+12,SpiceJet,Delhi,London,2023-10-25 03:13:00,2023-10-25 10:13:00
+13,IndiGo,Bengaluru,Paris,2023-10-25 13:41:00,2023-10-25 20:41:00
+14,Vistara,Mumbai,Goa,2023-10-25 20:14:00,2023-10-26 00:14:00
+15,Vistara,Bengaluru,New York,2023-10-25 11:21:00,2023-10-25 20:21:00
+16,Air India,Mumbai,Agra,2023-10-25 17:07:00,2023-10-25 22:07:00
+17,Vistara,Bengaluru,Kochi,2023-10-25 14:24:00,2023-10-25 16:24:00
+18,SpiceJet,Bengaluru,Paris,2023-10-25 04:40:00,2023-10-25 17:40:00
+19,Air India,Delhi,Goa,2023-10-25 08:13:00,2023-10-25 11:13:00
+20,Air India,Hyderabad,Shimla,2023-10-25 19:20:00,2023-10-25 20:20:00
+21,Air India,Hyderabad,Agra,2023-10-25 02:20:00,2023-10-25 07:20:00
+22,Air India,Kolkata,Udaipur,2023-10-25 11:12:00,2023-10-25 15:12:00
+23,Vistara,Bengaluru,Sydney,2023-10-25 21:32:00,2023-10-26 05:32:00
+24,Vistara,Delhi,Sydney,2023-10-25 07:12:00,2023-10-25 20:12:00
+25,GoAir,Chennai,Dubai,2023-10-25 13:30:00,2023-10-25 21:30:00
+26,IndiGo,Hyderabad,Singapore,2023-10-25 17:30:00,2023-10-26 02:30:00
+27,GoAir,Hyderabad,Udaipur,2023-10-25 21:06:00,2023-10-26 00:06:00
+28,Vistara,Delhi,Sydney,2023-10-25 17:34:00,2023-10-26 02:34:00
+29,GoAir,Kolkata,London,2023-10-25 15:28:00,2023-10-26 05:28:00
+30,IndiGo,Mumbai,Sydney,2023-10-25 22:14:00,2023-10-26 11:14:00
+31,IndiGo,Mumbai,London,2023-10-25 16:10:00,2023-10-26 02:10:00
+32,SpiceJet,Chennai,Shimla,2023-10-25 23:51:00,2023-10-26 03:51:00
+33,IndiGo,Chennai,Jaipur,2023-10-25 23:20:00,2023-10-26 04:20:00
+34,GoAir,Bengaluru,London,2023-10-25 05:53:00,2023-10-25 15:53:00
+35,Air India,Hyderabad,Dubai,2023-10-25 03:27:00,2023-10-25 13:27:00
+36,Vistara,Hyderabad,London,2023-10-25 10:37:00,2023-10-25 19:37:00
+37,Air India,Hyderabad,Paris,2023-10-25 18:35:00,2023-10-26 09:35:00
+38,Air India,Mumbai,Goa,2023-10-25 19:54:00,2023-10-25 23:54:00
+39,GoAir,Delhi,Paris,2023-10-25 07:07:00,2023-10-25 21:07:00
+40,SpiceJet,Kolkata,Jaipur,2023-10-25 03:41:00,2023-10-25 06:41:00
+41,Air India,Kolkata,Kochi,2023-10-25 19:39:00,2023-10-26 00:39:00
+42,IndiGo,Mumbai,Shimla,2023-10-25 21:43:00,2023-10-26 01:43:00
+43,GoAir,Delhi,Dubai,2023-10-25 04:57:00,2023-10-25 17:57:00
+44,SpiceJet,Kolkata,Paris,2023-10-25 14:53:00,2023-10-26 04:53:00
+45,GoAir,Bengaluru,London,2023-10-25 14:12:00,2023-10-26 00:12:00
+46,SpiceJet,Chennai,Kochi,2023-10-25 07:25:00,2023-10-25 10:25:00
+47,Vistara,Hyderabad,Goa,2023-10-25 04:36:00,2023-10-25 09:36:00
+48,Air India,Mumbai,Udaipur,2023-10-25 10:35:00,2023-10-25 11:35:00
+49,IndiGo,Kolkata,Kochi,2023-10-25 18:55:00,2023-10-25 19:55:00
+50,GoAir,Bengaluru,Kochi,2023-10-25 08:32:00,2023-10-25 11:32:00
+51,IndiGo,Mumbai,New York,2023-10-25 12:44:00,2023-10-26 02:44:00
+52,Vistara,Mumbai,London,2023-10-25 02:16:00,2023-10-25 11:16:00
+53,Vistara,Hyderabad,Goa,2023-10-25 11:36:00,2023-10-25 15:36:00
+54,GoAir,Delhi,Dubai,2023-10-25 16:32:00,2023-10-26 06:32:00
+55,IndiGo,Hyderabad,London,2023-10-25 09:45:00,2023-10-25 16:45:00
+56,Vistara,Bengaluru,Kochi,2023-10-25 23:20:00,2023-10-26 01:20:00
+57,Air India,Kolkata,Paris,2023-10-25 15:59:00,2023-10-26 03:59:00
+58,GoAir,Mumbai,Sydney,2023-10-25 03:18:00,2023-10-25 12:18:00
+59,IndiGo,Mumbai,Kochi,2023-10-25 01:47:00,2023-10-25 05:47:00
+60,IndiGo,Chennai,London,2023-10-25 17:31:00,2023-10-26 05:31:00
+61,GoAir,Hyderabad,Paris,2023-10-25 13:05:00,2023-10-25 21:05:00
+62,Air India,Kolkata,London,2023-10-25 14:26:00,2023-10-25 21:26:00
+63,Vistara,Chennai,Sydney,2023-10-25 02:25:00,2023-10-25 08:25:00
+64,Air India,Chennai,Sydney,2023-10-25 22:28:00,2023-10-26 08:28:00
+65,IndiGo,Bengaluru,Shimla,2023-10-25 15:28:00,2023-10-25 16:28:00
+66,GoAir,Delhi,Kochi,2023-10-25 01:27:00,2023-10-25 02:27:00
+67,IndiGo,Chennai,Jaipur,2023-10-25 01:56:00,2023-10-25 05:56:00
+68,Air India,Delhi,Paris,2023-10-25 03:32:00,2023-10-25 11:32:00
+69,SpiceJet,Chennai,Kochi,2023-10-25 22:50:00,2023-10-26 02:50:00
+70,IndiGo,Kolkata,Kochi,2023-10-25 15:55:00,2023-10-25 19:55:00
+71,Air India,Bengaluru,Udaipur,2023-10-25 19:44:00,2023-10-26 00:44:00
+72,Vistara,Chennai,Shimla,2023-10-25 15:46:00,2023-10-25 19:46:00
+73,Vistara,Delhi,Agra,2023-10-25 16:19:00,2023-10-25 17:19:00
+74,Air India,Chennai,Kochi,2023-10-25 05:09:00,2023-10-25 09:09:00
+75,SpiceJet,Kolkata,Sydney,2023-10-25 02:53:00,2023-10-25 12:53:00
+76,Vistara,Hyderabad,Goa,2023-10-25 16:02:00,2023-10-25 18:02:00
+77,SpiceJet,Kolkata,Singapore,2023-10-25 21:13:00,2023-10-26 04:13:00
+78,GoAir,Delhi,Dubai,2023-10-25 00:45:00,2023-10-25 13:45:00
+79,Vistara,Chennai,Sydney,2023-10-25 02:46:00,2023-10-25 14:46:00
+80,Vistara,Chennai,Jaipur,2023-10-25 06:06:00,2023-10-25 07:06:00
+81,GoAir,Hyderabad,Shimla,2023-10-25 05:03:00,2023-10-25 08:03:00
+82,SpiceJet,Mumbai,Paris,2023-10-25 15:45:00,2023-10-25 21:45:00
+83,SpiceJet,Delhi,New York,2023-10-25 23:05:00,2023-10-26 06:05:00
+84,Air India,Hyderabad,Udaipur,2023-10-25 07:11:00,2023-10-25 10:11:00
+85,SpiceJet,Kolkata,Sydney,2023-10-25 20:06:00,2023-10-26 10:06:00
+86,SpiceJet,Chennai,Shimla,2023-10-25 19:36:00,2023-10-25 23:36:00
+87,SpiceJet,Bengaluru,Agra,2023-10-25 04:30:00,2023-10-25 09:30:00
+88,IndiGo,Delhi,Singapore,2023-10-25 14:32:00,2023-10-26 04:32:00
+89,Air India,Bengaluru,Udaipur,2023-10-25 03:01:00,2023-10-25 07:01:00
+90,SpiceJet,Chennai,Dubai,2023-10-25 03:42:00,2023-10-25 18:42:00
+91,GoAir,Kolkata,Dubai,2023-10-25 09:11:00,2023-10-25 17:11:00
+92,Vistara,Hyderabad,Sydney,2023-10-25 22:01:00,2023-10-26 08:01:00
+93,IndiGo,Chennai,Agra,2023-10-25 07:47:00,2023-10-25 12:47:00
+94,GoAir,Kolkata,New York,2023-10-25 02:49:00,2023-10-25 12:49:00
+95,GoAir,Kolkata,Sydney,2023-10-25 19:03:00,2023-10-26 06:03:00
+96,Vistara,Mumbai,Udaipur,2023-10-25 01:10:00,2023-10-25 06:10:00
+97,GoAir,Bengaluru,New York,2023-10-25 21:08:00,2023-10-26 06:08:00
+98,GoAir,Bengaluru,Paris,2023-10-25 14:33:00,2023-10-25 23:33:00
+99,Air India,Bengaluru,Dubai,2023-10-25 20:42:00,2023-10-26 05:42:00
+100,GoAir,Chennai,Kochi,2023-10-25 02:25:00,2023-10-25 05:25:00
